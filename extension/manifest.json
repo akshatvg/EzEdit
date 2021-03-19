@@ -16,5 +16,9 @@
     },
     "permissions": [
         "tabs"
-    ]
+    ],
+    "content_scripts": [{
+        "js": ["popup.js"]
+    }],
+    "web_accessible_resources": ["inject.js"]
 }
