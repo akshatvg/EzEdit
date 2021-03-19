@@ -18,7 +18,8 @@
         "tabs"
     ],
     "content_scripts": [{
+        "matches": ["http://*/*", "https://*/*"],
         "js": ["popup.js"]
     }],
-    "web_accessible_resources": ["inject.js"]
+    "content_security_policy": "sscript-src-elem 'self' https://meet.google.com/; object-src 'self'"
 }
