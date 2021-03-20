@@ -1,8 +1,11 @@
-chrome.runtime.onMessage.addListener(function (request) {
+chrome.runtime.onMessage.addListener(function(request) {
     startEditing(request);
 })
 
 function startEditing(request) {
-    document.designMode = "on";
-    console.log(request);
+    if (request == "edit")
+        document.designMode = "on";
+    else
+    //will add the saving part here
+        console.log(request);
 }
