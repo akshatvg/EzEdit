@@ -9,17 +9,27 @@
 
     <div class="container ezeditExtensionContainer">
         <div>
-            <img src="logo128.png" alt="EzEdit" class="img-responsive text-center" width="128px" />
+            <img src="logo128.png" alt="EzEdit" class="img-responsive text-center img-rounded" width="128px" />
         </div>
         <div>
-            <h1><i>EzEdit</i></h1>
+            <h1 style="color: #000000;"><i>EzEdit</i></h1>
         </div>
-        <div class="mt-5">
+        <div class="mt-4">
+            <p class="text-black">1. Click the button &downarrow; to edit this site</p>
+        </div>
+        <div>
             <button id="editBtnEzEdit" class="btn ezeditBtn">EzEdit Now</button>
         </div>
+        <div class="mt-4">
+            <p class="text-black">2. Enter GitHub repository URL &downarrow; to deploy this site</p>
+        </div>
         <div>
-            <input class="form-control" type="url" id="ezEditGitHubLink">
-            <button id="submitEditBtnEzEdit" class="btn btn-success">Submit</button>
+            <input class="form-control" type="url" id="ezEditGitHubLink"
+                placeholder="https://github.com/akshatvg/EzEdit" required>
+            <button id="submitEditBtnEzEdit" class="btn ezeditSubmitBtn mt-3">Submit</button>
+        </div>
+        <div class="mt-4">
+            <button id="githubEzEditBtn" class="btn"><img src="github.png" alt="Sign in with GitHub" width="200px" style="border-radius: 5px;" /></button>
         </div>
     </div>
 

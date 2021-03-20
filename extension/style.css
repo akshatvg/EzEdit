@@ -1,19 +1,50 @@
 #editBtnEzEdit {
-    color: white !important;
-    background-color: #037BFD !important;
-    border: 1px solid #037BFD !important;
+    color: #ffffff !important;
+    background-color: #004cff !important;
+    border: 1px solid #ffffff9d !important;
 }
 
 #editBtnEzEdit:hover {
-    color: #1b429d !important;
-    background-color: transparent !important;
-    border: 1px solid #1b429d !important;
+    color: white !important;
+    background-color: #004cffe1 !important;
+    border: 1px solid #ffffff !important;
+}
+
+#submitEditBtnEzEdit {
+    color: #ffffff !important;
+    background-color: #02a842 !important;
+    border: 1px solid #ffffff9d !important;
+}
+
+#submitEditBtnEzEdit:hover {
+    color: white !important;
+    background-color: #038d38e1 !important;
+    border: 1px solid #ffffff !important;
 }
 
 .ezeditExtensionContainer {
-    height: 400px !important;
+    height: 600px !important;
     width: 300px !important;
     padding: 20px !important;
     text-align: center !important;
-    background: #d6d5d5a4 !important;
+    background: #000000 !important;
+    background-image: url("bg.jpeg") !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.img-rounded {
+    border-radius: 10px;
+}
+
+.form-control {
+    outline: none !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    outline: none !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
