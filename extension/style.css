@@ -1,0 +1,19 @@
+#editBtnEzEdit {
+    color: white !important;
+    background-color: #037BFD !important;
+    border: 1px solid #037BFD !important;
+}
+
+#editBtnEzEdit:hover {
+    color: #1b429d !important;
+    background-color: transparent !important;
+    border: 1px solid #1b429d !important;
+}
+
+.ezeditExtensionContainer {
+    height: 400px !important;
+    width: 300px !important;
+    padding: 20px !important;
+    text-align: center !important;
+    background: #d6d5d5a4 !important;
+}

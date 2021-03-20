@@ -1,11 +1,29 @@
 <html>
 
 <head>
-    <title>save and edit</title>
+    <title>EzEdit Extension</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
 </head>
 
 <body>
-    <button id="editbutton">edit ittt</button>
+
+    <div class="container ezeditExtensionContainer">
+        <div>
+            <img src="logo128.png" alt="EzEdit" class="img-responsive text-center" width="128px" />
+        </div>
+        <div>
+            <h1><i>EzEdit</i></h1>
+        </div>
+        <div class="mt-5">
+            <button id="editBtnEzEdit" class="btn ezeditBtn">EzEdit Now</button>
+        </div>
+        <div>
+            <input class="form-control" type="url" id="ezEditGitHubLink">
+            <button id="submitEditBtnEzEdit" class="btn btn-success">Submit</button>
+        </div>
+    </div>
+
+    <script src="bootstrap.min.js"></script>
     <script src="popup.js"></script>
 </body>
 

@@ -1,8 +1,8 @@
-chrome.runtime.onMessage.addListener(function(request) {
-    changeColor(request)
+chrome.runtime.onMessage.addListener(function (request) {
+    startEditing(request);
 })
 
-function changeColor(request) {
+function startEditing(request) {
     document.designMode = "on";
     console.log(request);
 }
