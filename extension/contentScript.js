@@ -7,9 +7,16 @@ function startEditing(request) {
         document.designMode = "on";
     else {
         var theHtmlCode = document;
-        var theCssCode = document.styleSheets;
-        var theJsCode = document.scripts;
-        console.log(theJsCode);
+        [].forEach.call(document.querySelectorAll("script[src]"), function(src) {
+
+            console.log(src);
+
+        });
+        [].forEach.call(document.querySelectorAll("link[href]"), function(href) {
+
+            console.log(href);
+
+        });
     }
     //will add the saving part here
 
