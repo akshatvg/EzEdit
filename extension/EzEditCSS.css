@@ -2,6 +2,12 @@
     color: #ffffff !important;
     background-color: #004cff !important;
     border: 1px solid #ffffff9d !important;
+    width: 150px !important;
+    height: 50px !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    font-weight: bold !important;
+    font-size: 15px !important;
 }
 
 #editBtnEzEdit:hover {
@@ -10,10 +16,35 @@
     border: 1px solid #ffffff !important;
 }
 
+#signinEzEdit {
+    color: #ffffff !important;
+    background-color: #ad033c !important;
+    border: 1px solid #ffffff9d !important;
+    width: 150px !important;
+    height: 50px !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    font-weight: bold !important;
+    font-size: 15px !important;
+}
+
+#signinEzEdit:hover {
+    color: white !important;
+    background-color: #8d002f !important;
+    border: 1px solid #ffffff !important;
+}
+
+
 #submitEditBtnEzEdit {
     color: #ffffff !important;
     background-color: #02a842 !important;
     border: 1px solid #ffffff9d !important;
+    width: 150px !important;
+    height: 50px !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    font-weight: bold !important;
+    font-size: 15px !important;
 }
 
 #submitEditBtnEzEdit:hover {
@@ -23,27 +54,35 @@
 }
 
 .ezeditExtensionContainer {
-    height: 600px !important;
-    width: 300px !important;
-    padding: 20px !important;
+    height: 620px !important;
+    width: 330px !important;
     text-align: center !important;
+    padding: 20px !important;
     background: #000000 !important;
     background-image: url("bg.jpeg") !important;
     background-size: cover !important;
-    background-repeat: no-repeat !important;
+    background-repeat: repeat !important;
+    overflow: auto;
+    padding-bottom: 35px !important;
 }
 
 .img-rounded {
     border-radius: 10px;
 }
 
-.form-control {
+.ezEditGitHubLink,
+.ezEditGitHubPAT {
     outline: none !important;
     -webkit-box-shadow: none;
     box-shadow: none;
+    border: 1px solid black !important;
+    width: 250px !important;
+    height: 35px !important;
+    border-radius: 5px !important;
 }
 
-.form-control:focus {
+.ezEditGitHubLink:focus,
+.ezEditGitHubPAT:focus {
     outline: none !important;
     -webkit-box-shadow: none;
     box-shadow: none;

@@ -15,12 +15,7 @@
                 "https://*/*"
             ],
             "js": [
-                "contentScript.js",
-                "bootstrap.min.js"
-            ],
-            "css": [
-                "bootstrap.min.css",
-                "EzEditCSS.css"
+                "contentScript.js"
             ]
         }
     ],

@@ -1,35 +1,70 @@
-# Repo Name
+# EzEdit
 
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/akshatvg/<Repo>?logo=github&style=social)](https://github.com/akshatvg/) [![GitHub last commit](https://img.shields.io/github/last-commit/akshatvg/<Repo>?style=social&logo=git)](https://github.com/akshatvg/) [![GitHub stars](https://img.shields.io/github/stars/akshatvg/<Repo>?style=social)](https://github.com/akshatvg/<Repo>/stargazers) [![GitHub forks](https://img.shields.io/github/forks/akshatvg/<Repo>?style=social&logo=git)](https://github.com/akshatvg/<Repo>/network)
-
-Project description comes here.
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/akshatvg/EzEdit?logo=github&style=social)](https://github.com/akshatvg/) [![GitHub last commit](https://img.shields.io/github/last-commit/akshatvg/EzEdit?style=social&logo=git)](https://github.com/akshatvg/) [![GitHub stars](https://img.shields.io/github/stars/akshatvg/EzEdit?style=social)](https://github.com/akshatvg/EzEdit/stargazers) [![GitHub forks](https://img.shields.io/github/forks/akshatvg/EzEdit?style=social&logo=git)](https://github.com/akshatvg/EzEdit/network)
 
 <p align="center">
 <a href="#!">
-<img src="https://github.com/akshatvg/<Repo>/blob/master/Assets/app-icon-64%402x.png" width="120px" height="120px" alt="<Repo> Logo"/>
+<img src="https://github.com/akshatvg/EzEdit/blob/master/extension/logo128.png?raw=true" height="128px" alt="EzEdit Logo"/>
 </a>
 </p>
 
-![Generic badge](https://img.shields.io/badge/Random-Swag-orange) 
+![Generic badge](https://img.shields.io/badge/Ez-Edit-orange) 
 
-#### Link for [demo](#!) 
-[![Generic badge](https://img.shields.io/badge/view-demo-orange)](#!)
+[![Generic badge](https://img.shields.io/badge/view-video_demo-purple)](#!)
 
-## Useful Links
+## Introduction
+[Akshat](https://github.com/akshatvg)'s uncle was getting his company's website developed by a huge firm. The firm charged him lakhs of rupees for development and later told him that they wouldn't maintain the project or make changes unless he paid a hefty sum for maintenance.
 
-- [Actual Website](#!)
+Being web developers ourselves, we decided to make something to make it easy for anyone facing such issues.
+
+## About EzEdit
+EzEdit makes it easy to modify existing websites online without code and publish the changes to be reflected to everyone.
+
+## Features
+- No coding background required
+- Edit website in seconds
+- Image, text, video, positioning support
+- Push to GitHub
+- Deploy newly edited site
+- Easy to use
+
+## Applications
+- People in a hurry can use this extension to make changes to sites and publish it for everyone to see
+- Non-developers and businessmen who are dependent on developers can become independent as now they don't need to hire someone for basic maintenance work
+- Revolutionising website development without coding
+
+## Marketing and business model
+- We intend to keep the product free for at least a year to ensure we get the marketing we deserve- happy and long lasting user retention is our goal.
+- We will charge subscription fees after a month's free trial (Freemium model) from every user.
+
+## Tech Stack
+- HTML
+- CSS
+- JavaScript
+- GitHub API
+- Chrome utilities
 
 ## Requirements
+This is a Google Chrome extension and hence you will require the **Chrome browser**.
 
-[![GitHub top language](https://img.shields.io/github/languages/top/akshatvg/<Repo>?logo=javascript&style=social)](https://github.com/akshatvg/)
+## Instructions to download the extension
+1. Open Google Chrome.
+2. Clone this repository and keep the `extension` folder aside.
+3. Load the unpacked extension folder by following this [simple guide](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/).
+4. Turn the extension on and pin it.
 
-The source code of this project is written in **`HTML/CSS/JS`**. So, you do not require anything extra to run this project.
+## Instructions to use the extension
+1. Follow the steps above to download the extension.
+2. Click on the extension's icon in the pinned extensions section while browsing a site of your choice.
+3. Click on the `EzEdit Now` button and start editing the UI of the website directly including text, images, positioning, etc.
+4. After all required enhancements are done, enter your GitHub Personal Access Token to sign in to GitHub and get the necessary push permissions. If you don't know how to create an acess token, you can refer [this link](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token).
+5. Once you are signed in, you can enter a GitHub repository's link in the last field and click on submit.
+6. Wait for a few minutes and explore the resultant GitHub pages site as a modified version of the old site.
 
-## Instructions
-
-[![chrome](https://img.shields.io/badge/Open-index.html-lightgrey.svg?logo=google-chrome&style=popout&logoColor=red)](#!)
-
-Extract the folder and run `index.html`
+## Contributors
+- [Akshat Gupta](https://github.com/akshatvg)
+- [Anand Suresh](https://github.com/Anandsure)
+- [Sai Sandeep](https://github.com/raysandeep)
 
 
 ## Need help?
@@ -78,9 +113,9 @@ ______      _               _   _               _
 
 ## License
 
-**MIT &copy; [Akshat Gupta](https://github.com/akshatvg/<Repo>/blob/master/LICENSE)**
+**MIT &copy; [Akshat Gupta](https://github.com/akshatvg/EzEdit/blob/master/LICENSE)**
 
-[![GitHub license](https://img.shields.io/github/license/akshatvg/<Repo>?style=social&logo=github)](https://github.com/akshatvg/<Repo>/blob/master/LICENSE) [![Twitter Follow](https://img.shields.io/twitter/follow/akshatvg?style=social)](https://twitter.com/akshatvg)
+[![GitHub license](https://img.shields.io/github/license/akshatvg/EzEdit?style=social&logo=github)](https://github.com/akshatvg/EzEdit/blob/master/LICENSE) [![Twitter Follow](https://img.shields.io/twitter/follow/akshatvg?style=social)](https://twitter.com/akshatvg)
 
 ---------
 

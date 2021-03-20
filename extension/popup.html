@@ -2,44 +2,48 @@
 
 <head>
     <title>EzEdit Extension</title>
-    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="EzEditCSS.css" />
 </head>
 
-<body>
+<body class="ezeditExtensionContainer">
 
-    <div class="container ezeditExtensionContainer">
+    <div>
         <div>
             <img src="logo128.png" alt="EzEdit" class="img-responsive text-center img-rounded" width="128px" />
         </div>
         <div>
             <h1 style="color: #000000;"><i>EzEdit</i></h1>
         </div>
-        <div class="mt-4">
-            <p class="text-black">1. Click the button &downarrow; to edit this site</p>
+        <div>
+            <p style="font-size: 17px;"><i><b>1. Click the button &downarrow; to edit this site</b></i></p>
         </div>
         <div>
             <button id="editBtnEzEdit" class="btn ezeditBtn">EzEdit Now</button>
         </div>
-        <div class="mt-4">
-            <p class="text-black">2. Enter GitHub repository URL &downarrow; to deploy this site</p>
+        <div>
+            <p style="font-size: 17px;"><i><b>2. Enter your GitHub account's Personal Access Token &downarrow;</b></i>
+            </p>
         </div>
         <div>
-            <input class="form-control" type="url" id="ezEditGitHubLink"
+            <input class="ezEditGitHubPAT" type="password" id="ezEditPAT" placeholder="********************" required>
+        </div>
+        <div style="margin-top: 15px;">
+            <button id="signinEzEdit" class="btn ezeditBtn">Sign In</button>
+        </div>
+        <div>
+            <p style="font-size: 17px;"><i><b>3. Enter GitHub repository URL &downarrow; to deploy this site</b></i></p>
+        </div>
+        <div>
+            <input class="ezEditGitHubLink" type="url" id="ezEditGitHubLink"
                 placeholder="https://github.com/akshatvg/EzEdit" required>
-            <button id="submitEditBtnEzEdit" class="btn ezeditSubmitBtn mt-3">Submit</button>
         </div>
-        <div class="mt-4">
-            <p class="text-black">Enter your github PAT &downarrow;</p>
-        </div>
-        <div class="mt-4">
-            <button id="githubEzEditBtn" class="btn"><img src="github.png" alt="Sign in with GitHub" width="200px" style="border-radius: 5px;" /></button>
-            <!-- <input class="form-control" type="password" id="ezEditPAT" placeholder="********************" required>
-            <button id="signinEzEdit" class="btn ezeditSubmitBtn mt-3">Sign In</button> -->
+        <div style="margin-top: 15px;">
+            <button id="submitEditBtnEzEdit" class="btn ezeditBtn">Submit</button>
         </div>
     </div>
 
-    <script src="bootstrap.min.js"></script>
     <script src="popup.js"></script>
+
 </body>
 
 </html>
