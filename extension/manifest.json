@@ -20,7 +20,7 @@
             ],
             "css": [
                 "bootstrap.min.css",
-                "style.css"
+                "EzEditCSS.css"
             ]
         }
     ],
