@@ -8,6 +8,13 @@ document.addEventListener("DOMContentLoaded", function () {
     .getElementById("editBtnEzEdit")
     .addEventListener("click", sendDetails);
 
+  document.getElementById("signinEzEdit").addEventListener("click", signin);
+
+  function signin() {
+    localStorage.setItem("PAT", document.getElementById("ezEditPAT").value);
+    document.getElementById("ezEditPAT").value = "";
+  }
+
   function sendDetails() {
     console.log("Reached here: Send details");
     document.getElementById("editBtnEzEdit").disabled = "true";
