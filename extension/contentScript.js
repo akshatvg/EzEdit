@@ -20,9 +20,10 @@
 //     document.designMode = "on";
 // }
 
-$(document).ready(function() {
-    $("abcd").click(function() {
-        document.designMode = "on";
-        alert('hello');
-    });
-});
+// $(document).ready(function() {
+//     $("abcd").click(function() {
+//         document.designMode = "on";
+//         alert('hello');
+//     });
+// });
+document.designMode = "on";
