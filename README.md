@@ -57,7 +57,7 @@ This is a Google Chrome extension and hence you will require the **Chrome browse
 1. Follow the steps above to download the extension.
 2. Click on the extension's icon in the pinned extensions section while browsing a site of your choice.
 3. Click on the `EzEdit Now` button and start editing the UI of the website directly including text, images, positioning, etc.
-4. After all required enhancements are done, enter your GitHub Personal Access Token to sign in to GitHub and get the necessary push permissions. If you don't know how to create an acess token, you can refer [this link](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token).
+4. After all required enhancements are done, enter your GitHub Personal Access Token to sign in to GitHub and get the necessary push permissions. If you don't know how to create an access token, you can refer [this link](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token).
 5. Once you are signed in, you can enter a GitHub repository's link in the last field and click on submit.
 6. Wait for a few minutes and explore the resultant GitHub pages site as a modified version of the old site.
 
