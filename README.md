@@ -10,7 +10,7 @@
 
 ![Generic badge](https://img.shields.io/badge/Ez-Edit-orange) 
 
-[![Generic badge](https://img.shields.io/badge/view-video_demo-purple)](https://drive.google.com/drive/folders/1tMl2dp2JUBA88NpGL3jfvwhXbaSQg4xY)
+[![Generic badge](https://img.shields.io/badge/view-video_demo-purple)](https://www.youtube.com/watch?v=49CPKqyZOQE)
 
 ## Introduction
 [Akshat](https://github.com/akshatvg)'s uncle was getting his company's website developed by a huge firm. The firm charged him lakhs of rupees for development and later told him that they wouldn't maintain the project or make changes unless he paid a hefty sum for maintenance.
