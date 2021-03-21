@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", function() {
     (document.head || document.documentElement).appendChild(style);
     document.getElementById("editBtnEzEdit").addEventListener("click", sendDetails);
 
-    document.getElementById("submitEditBtnEzEdit").addEventListener("click", pushtogit);
 
     function sendDetails() {
         console.log("Reached here: Send details");
