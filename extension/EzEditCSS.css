@@ -35,7 +35,8 @@
 }
 
 
-#submitEditBtnEzEdit {
+#submitEditBtnEzEdit,
+#xyz {
     color: #ffffff !important;
     background-color: #02a842 !important;
     border: 1px solid #ffffff9d !important;
@@ -47,7 +48,8 @@
     font-size: 15px !important;
 }
 
-#submitEditBtnEzEdit:hover {
+#submitEditBtnEzEdit:hover,
+#xyz:hover {
     color: white !important;
     background-color: #038d38e1 !important;
     border: 1px solid #ffffff !important;
